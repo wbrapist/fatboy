@@ -1,11 +1,11 @@
 $(document).ready(function() {
     setTimeout(function() {
-        const sound = new Audio();
+        let sound = new Audio();
         sound.src = "track.mp3";
         sound.play();
-    }, 500)
+    }, 1000)
 
     setTimeout(function() {
         $("body p").css("color", "rgb(247, 247, 247)");
-    }, 2500)
+    }, 3000)
 });
